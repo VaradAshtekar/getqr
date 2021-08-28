@@ -1,38 +1,237 @@
-.App {
-  text-align: center;
-}
+@font-face {font-family: "Rotunda"; src: url("//db.onlinewebfonts.com/t/a1a94ed81c6d1fd4a325e41f00e9e39f.eot"); src: url("//db.onlinewebfonts.com/t/a1a94ed81c6d1fd4a325e41f00e9e39f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a1a94ed81c6d1fd4a325e41f00e9e39f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a1a94ed81c6d1fd4a325e41f00e9e39f.woff") format("woff"), url("//db.onlinewebfonts.com/t/a1a94ed81c6d1fd4a325e41f00e9e39f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a1a94ed81c6d1fd4a325e41f00e9e39f.svg#Rotunda") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("//db.onlinewebfonts.com/c/19b8f54eb1f074fb01efb1c4f02e9623?family=AvertaStd-Regular");
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.idea-section, .qna-section{
+  background: #f2f3f8;
+  
 }
+/* 
+body{
+  color:#8566FF
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.idea_column{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+}
+.ideas{
+  padding: 2%;
+  background-color: #8566FF;
+  color: white;
+  border-radius: 20px;
+  margin: 0 2%;
+}
+.icon{
+  padding: 0 0 5% 5%;
+}
+p, .accordion-body{
+  font-family: 'Rotunda', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+.accordion-button{
+  font-family: 'AvertaStd-Regular', sans-serif;
+  font-size: 20px;
+  color: #8566FF;
+  font-weight: bold;
+}
+.nav-link{
+  font-family: 'AvertaStd-Regular', sans-serif;
+  color: #8566FF;
+  font-weight: bold;
+}
+.nav-item{
+  margin-right: 5%;
+}
+ul.navbar-nav{
+  margin-right: 5%;
+}
+h3{
+  font-family: 'AvertaStd-Regular', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 1% 0 0.5% 0;
+}
+h2.heading{
+  padding: 5% 0 5% 0;
+  text-align: center;
+  color: #8566FF;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.steps-section .col img{
+  height: 300px;
+}
+.showmore{
+  background-color: #8566FF;
+  border-radius: 25px;
+  border-width: 0px;
+  padding: 1% 2% 1% 2%;
+  color: white;
+  font-family: 'AvertaStd-Regular', sans-serif;
+  display: flex;
+  margin: 5% auto;
+}
+input.qna, textarea{
+  font-family: 'Rotunda', sans-serif;
+  font-size: 15px;
+  border-width: 0px;
+  border-radius: 20px;
+  padding: 1% 2% 1% 2%;
+}
+
+.right-sec col, .left-sec col{
+  width: 50%;
+}
+.right-sec .row, .left-sec .row{
+  margin: 0 0 5% 0;
+}
+.hero-section{
+  margin: 5%;
+  border-radius: 40px;
+  box-shadow: 2px 2px 10px 1px gray;
+}
+.downloadbutton, .login{
+  border-radius: 20px;
+  font-family: 'AvertaStd-Regular', sans-serif;
+  margin: 3% 5% 5% 0;
+}
+.downloadbutton{
+  border-width: 2px;
+  border-color: #8566FF;
+  color: #8566FF;
+}
+.login{
+  background: #8566FF;
+  color: white;
+}
+.downloadbutton:hover{
+  background: #8566FF;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.iconsec{
+  border-radius: 25px;
+  margin: 5% 5% 0 2%;
+  padding: 2%;
+  box-shadow: 1px 1px 10px 1px grey;
+}
+.iconsec .icon i{
+  color: #8566FF;
+}
+.infoqr .icon{
+  background: white;
+  padding: 5%;
+}
+.infoqr .icon i{
+  height: 10px;
+}
+.infoqr{
+  display: flex;
+  flex-direction: row;
+}
+.icon:hover{
+  background: #8566FF;
+  border-radius: 15px;
+  margin: 3%;
+
+}
+.icon:hover i{
+  padding: 5%;
+  margin: 2%;
+  color: white;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+  margin: 5% 0 0 3%;
+}
+.email h3{
+  font-size: 17px;
+  font-weight: 300;
+  font-family: 'Rotunda', sans-serif;
+}
+.email input, textarea{
+  margin-left: 8%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.form-check{
+  margin-left: 3%;
+}
+
+.qr_content{
+  margin-top: 5%;
+}
+.dropdown-toggle{
+  background-color: #EAECF8;
+  border-radius: 20px;
+  border-width: 4px;
+  border-color: white;
+  box-shadow: 0.5px 0.5px 5px 0.5px grey;
+  font-family: 'AvertaStd-Regular', sans-serif;
+  margin: 3% 0;
+}
+
+.modal-body{
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  color: #8566FF;
+}
+.modal-title{
+  text-align: center;
+}
+
+
+.registration{
+  border-radius: 20px;
+  background: #D1C5FF3B;
+  margin: 5%;
+  padding: 5%;
+}
+.block{
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 0 6px 0.5px grey;
+  padding: 5%;
+  margin: 5%;
+}
+.type-section{
+  text-align: center;
+}
+.fileupload{
+
+  border-radius: 20px;
+}
+.navbar-brand img{
+  margin-left: 81%;
+}
+
+
+/* Responsive  */
+@media screen and (max-width:768px){
+  p, .showmore{
+    font-size: 12px;
   }
-  to {
-    transform: rotate(360deg);
+  h1{
+    font-size: 25px;
+    line-height: 32px;
   }
+  h2{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  h3{
+    font-size: 15px;
+    line-height: 20px;
+  }
+
 }

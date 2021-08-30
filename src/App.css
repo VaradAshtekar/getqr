@@ -7,13 +7,13 @@ h1{
   font-family: 'Source Sans Pro', sans-serif;
 }
 .idea-section, .qna-section{
-  background: #f2f3f8;
+  background: #FFC2C2;
   
 }
-/* 
+
 body{
-  color:#8566FF
-} */
+  color:#010A43
+}
 
 .idea_column{
   display: flex;
@@ -21,7 +21,7 @@ body{
 }
 .ideas{
   padding: 2%;
-  background-color: #8566FF;
+  background-color: #010A43;
   color: white;
   border-radius: 20px;
   margin: 0 2%;
@@ -38,12 +38,12 @@ p, .accordion-body{
 .accordion-button{
   font-family: 'AvertaStd-Regular', sans-serif;
   font-size: 20px;
-  color: #8566FF;
+  color: #010A43;
   font-weight: bold;
 }
 .nav-link{
   font-family: 'AvertaStd-Regular', sans-serif;
-  color: #8566FF;
+  color: #010A43;
   font-weight: bold;
 }
 .nav-item{
@@ -61,7 +61,7 @@ h3{
 h2.heading{
   padding: 5% 0 5% 0;
   text-align: center;
-  color: #8566FF;
+  color: #010A43;
   font-size: 40px;
   line-height: 50px;
   font-weight: bold;
@@ -71,7 +71,7 @@ h2.heading{
   height: 300px;
 }
 .showmore{
-  background-color: #8566FF;
+  background-color: #010A43;
   border-radius: 25px;
   border-width: 0px;
   padding: 1% 2% 1% 2%;
@@ -106,15 +106,15 @@ input.qna, textarea{
 }
 .downloadbutton{
   border-width: 2px;
-  border-color: #8566FF;
-  color: #8566FF;
+  border-color: #010A43;
+  color: #010A43;
 }
 .login{
-  background: #8566FF;
+  background: #010A43;
   color: white;
 }
 .downloadbutton:hover{
-  background: #8566FF;
+  background: #010A43;
   color: white;
 }
 
@@ -125,8 +125,10 @@ input.qna, textarea{
   padding: 2%;
   box-shadow: 1px 1px 10px 1px grey;
 }
-.iconsec .icon i{
-  color: #8566FF;
+.iconsec .icon i.fa{
+  padding: 20%;
+  color: #010A43;
+  font-size: 20px;
 }
 .infoqr .icon{
   background: white;
@@ -140,13 +142,13 @@ input.qna, textarea{
   flex-direction: row;
 }
 .icon:hover{
-  background: #8566FF;
+  background: #010A43;
   border-radius: 15px;
   margin: 3%;
 
 }
-.icon:hover i{
-  padding: 5%;
+.icon:hover i.fa{
+  padding: 7%;
   margin: 2%;
   color: white;
 }
@@ -172,7 +174,7 @@ input.qna, textarea{
   margin-top: 5%;
 }
 .dropdown-toggle{
-  background-color: #EAECF8;
+  background-color: white;
   border-radius: 20px;
   border-width: 4px;
   border-color: white;
@@ -184,7 +186,7 @@ input.qna, textarea{
 .modal-body{
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-  color: #8566FF;
+  color: #010A43;
 }
 .modal-title{
   text-align: center;
@@ -214,7 +216,23 @@ input.qna, textarea{
 .navbar-brand img{
   margin-left: 81%;
 }
+.footer{
+  margin-bottom: 7%;
+}
+.smicons{
+ 
+  margin: 0 0 10% 10%;
+}
+.smicons i.fa{
+  color: #010A43;
+  font-size: 35px !important;
+  padding: 5%;
+}
 
+.qna-section h3{
+  font-size: 18px;
+  line-height: 24px;
+}
 
 /* Responsive  */
 @media screen and (max-width:768px){

@@ -6,14 +6,15 @@ export const Footer = () => {
         <div className="row footer">
             <div className="col">
                 <div className="row">
-                    <img src={logo} />
+                    <img src={logo} height={100} />
                 </div>
-                <div className="row">
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
-
+                <div className="smicons row">
+                    <div className="col">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </div>
                 </div>
 
             </div>
@@ -45,8 +46,8 @@ export const Footer = () => {
 
             <div className="col">
                 <h3>Help</h3>
-                <p></p>
-                <p></p>
+                <p>Help Center <br />
+                    Contact Us</p>
 
             </div>
         </div>

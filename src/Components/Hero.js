@@ -67,7 +67,9 @@ export const Hero = () => {
                         <div className="col-6 qr_content">
                             <Switch>
 
-
+                                <Route exact path="/">
+                                    <Email />
+                                </Route>
                                 <Route path="/emailqr">
                                     <Email />
                                 </Route>

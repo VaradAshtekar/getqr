@@ -27,8 +27,8 @@ export const Twitter = () => {
                     <textarea class="form-control" placeholder="Enter your text here" id="floatingTextarea"></textarea>
                 </div>
                 <input class="form-control fileupload" type="file" id="formFile" />
-                <div className="col">
-                    <button className="showmore">Sign Up for Free</button>
+                <div className="email">
+                    <button className="btn generate">Generate</button>
                 </div>
 
             </div>

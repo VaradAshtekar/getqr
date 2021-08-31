@@ -5,7 +5,7 @@ export const Appstore = () => {
         <div>
             <h1>App Store QR</h1>
             <p>Link your App in Google Play store, Apple App store, Amazon Appstore on one page. </p>
-            <button className="btn showmore">Generate</button>
+            <button className="btn generate">Sign up for free</button>
 
         </div>
     )

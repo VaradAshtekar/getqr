@@ -61,7 +61,7 @@ export const Bitcoin = () => {
                 </div>
 
                 <div className="email">
-                    <button className="btn showmore">Generate</button>
+                    <button className="btn generate">Generate</button>
                 </div>
 
             </div>

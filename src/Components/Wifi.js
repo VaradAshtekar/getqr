@@ -3,7 +3,7 @@ import React from 'react'
 export const Wifi = () => {
     return (
         <div>
-            <h1>Wi-fi</h1>
+            <h1>Wi-fi QR</h1>
             <div className="row">
                 <div className="email">
 
@@ -47,7 +47,9 @@ export const Wifi = () => {
 
                 </div>
 
-                <button className="showmore">Generate</button>
+                <div className="email">
+                    <button className="btn generate">Generate</button>
+                </div>
 
             </div>
         </div>

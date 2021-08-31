@@ -59,7 +59,9 @@ export const Vcard = () => {
 
                 </div>
 
-                <button className="showmore">Generate</button>
+                <div className="email">
+                    <button className="btn generate">Generate</button>
+                </div>
             </div>
 
         </div>

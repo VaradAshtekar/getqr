@@ -22,6 +22,7 @@
 
 h2{
     font-size: 36px;
+    font-weight: bold;
     color: #8566FF;
     font-family:'Source Sans Pro', sans-serif; ;
 }
@@ -50,6 +51,10 @@ h2{
 }
 h3{
     font-size: 20px;
+}
+.text p{
+    margin: 0;
+    padding: 0;
 }
 .grid p{
     font-size: 13px;

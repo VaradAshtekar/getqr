@@ -34,16 +34,21 @@ export const Navbar = () => {
                                 <a className="nav-link" href="#">Chrome Apk</a>
                             </li>
 
-                            <Link to="/register/">
-                                <button type="button" className="btn downloadbutton shadow-none">
-                                    Register
-                                </button>
-                            </Link>
-                            <Link to="/login/">
-                                <button type="button" className="btn login shadow-none">
-                                    Login
-                                </button>
-                            </Link>
+                            <li className="nav-item">
+                                <Link to="/register/">
+                                    <button type="button" className="btn downloadbutton shadow-none">
+                                        Register
+                                    </button>
+                                </Link>
+                            </li>
+
+                            <li className="nav-item">
+                                <Link to="/login/">
+                                    <button type="button" className="btn login shadow-none">
+                                        Login
+                                    </button>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

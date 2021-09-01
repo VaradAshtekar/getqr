@@ -3,9 +3,9 @@ import React from 'react'
 export const Register = () => {
     return (
         <div className="container login_sec">
-            <h3>Create, Manage and Track <span> all your QR Codes in one </span></h3>
+            <h3>Create, Manage and Track <span style={{ color: "#8566FF" }}> all your QR Codes in one </span></h3>
             <p>Sign up now and try all features free for 14 days</p>
-            <div className="container">
+            <div className="container login_section">
 
                 <div className="dropdown">
                     <button className="btn dropdown-toggle shadow-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -17,10 +17,14 @@ export const Register = () => {
                         <li><a className="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                 </div>
+                <div className="mb-3">
 
+                    <input type="email" class="qna" id="exampleFormControlInput1" placeholder="Work Email" />
+                </div>
+                <div className="mb-3">
+                    <input type="password" className="qna " placeholder="Password" />
+                </div>
 
-                <input type="email" className="qna" placeholder="Work Email" />
-                <input type="password" className="qna" placeholder="Password" />
 
 
                 <div className="dropdown">
@@ -34,12 +38,12 @@ export const Register = () => {
                     </ul>
                 </div>
 
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
-                    <label class="form-check-label" for="flexCheckDefault">
-                        I agree with the Terms of service and Privacy policy
-                    </label>
-                </div>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                <label class="form-check-label" for="flexCheckChecked">
+                    I agree with the Tearms of service and Privacy policy
+                </label>
             </div>
 
 

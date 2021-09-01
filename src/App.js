@@ -14,33 +14,37 @@ import {
 import { Navbar } from './Components/Navbar';
 import { Qrtype } from './Components/Qrtype';
 import { Dashboard } from './Components/Dashboard';
+import { WebsiteQR } from './Components/WebsiteQR';
 
 
 function App() {
   return (
     <>
-      <Navbar />
 
       <Router>
+        <Navbar />
+
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             < Home />
           </Route>
-          <Route path="/register">
+          <Route exact path="/register">
             < Register />
           </Route>
 
-          <Route path="/login">
+          <Route exact path="/login">
             < Login />
           </Route>
 
-          <Route path="/qrtype">
+          <Route exact path="/qrtype">
             < Qrtype />
           </Route>
-          <Route path="/dashboard">
+          <Route exact path="/dashboard">
             < Dashboard />
           </Route>
-
+          <Route exact path="/webqr">
+            <WebsiteQR />
+          </Route>
         </Switch>
       </Router>
 

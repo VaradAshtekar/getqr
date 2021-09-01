@@ -1,13 +1,12 @@
 import React from 'react'
-import logo from '../static/Component 1.svg';
+import logo from '../static/getqrlogo.png';
 
 export const Footer = () => {
     return (
         <div className="row footer">
             <div className="col">
-                <div className="row">
-                    <img src={logo} height={100} />
-                </div>
+                <img src={logo} height={100} />
+
                 <div className="smicons row">
                     <div className="col">
                         <i class="fa fa-facebook-official" aria-hidden="true"></i>

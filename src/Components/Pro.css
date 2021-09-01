@@ -1,36 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 
 .body{
     font-family: 'Source Sans Pro', sans-serif;
+    color: #8566FF;
 }
-.typeicon{
-    padding: 1% 5%;
-}
-.typeicon i.fa{
-    font-size: 35px;
-    margin: 50% 10% 5% 10%;
-}
-.type{
-    border-radius: 35px;
-    padding: 2% 2%;
-    margin: 5% 10%;
-    background-color: #010A43;
-    color: white;
+.heading{
+    margin: 2% 5%;
     display: flex;
     flex-direction: row;
 }
+.form-control{
+    border-radius: 20px;
+}
+.d-flex{
+    margin-left: 5%;
+}
+.d-flex i.fa{
+    color: #8566FF;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 36px;
+    color: #8566FF;
+    font-family:'Source Sans Pro', sans-serif; ;
+}
+
+.typeicon {
+    margin: 5% 15% 0 5%;
+    padding-top: 15%;
+}
+.typeicon i.fa{
+    font-size: 35px;
+}
+.type{
+    text-align: left;
+    border-radius: 35px;
+    border-width: 2px;
+    border-color: #8566FF;
+    margin: 5% 10%;
+    background-color:white ;
+    color: #8566FF;
+    display: flex;
+    flex-direction: row;
+}
+.type:hover{
+    background: #8566FF;
+    color: white;
+}
 h3{
-    font-size: 24px;
+    font-size: 20px;
 }
 .grid p{
     font-size: 13px;
     line-height: 18px;
 }
 .grid{
+    background: #D1C5FF3B;
+    padding: 3%;
+    border-radius: 35px;
+    margin: 5% 0 5% 5%;
     display: flex;
     flex-direction: row;
 }
 
 
+/* Web QR */
+.webdetails, .qrcode{
+width: 50%;
+}
 
 /* Navbar */
 

@@ -256,10 +256,13 @@ input.qna, textarea{
 .navbar-brand{
   margin-left: 10%;
 }
+
+/* Footer */
 .footer{
   margin-bottom: 7%;
 }
-.smicons{
+
+.smicons, .footer .col img{
  
   margin: 0 0 10% 10%;
 }

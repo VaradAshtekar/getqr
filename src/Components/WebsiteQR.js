@@ -1,10 +1,16 @@
 import React from 'react'
 import "./Pro.css";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 
 export const WebsiteQR = () => {
     return (
-        <div>
-            <h1>Website QR name</h1>
+        <div className="webqr">
+            <h1> <i class="fa fa-link" aria-hidden="true"></i> Website QR name</h1>
             <div className="grid">
                 <div className="webdetails">
                     <div className="row">
@@ -29,7 +35,10 @@ export const WebsiteQR = () => {
 
                     <h4>Website : </h4>
                     <input type="text" className="qna" placeholder="https//:enterqr.com" />
-                    <button className="btn generate">Generate</button>
+
+                    <Link to="/dashboard">
+                        <button className="btn generate">Generate</button>
+                    </Link>
                 </div>
                 <div className="qrcode">
                     <div class="form-check form-switch">

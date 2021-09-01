@@ -4,7 +4,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     color: #8566FF;
 }
-.heading{
+.heading_qr{
     margin: 2% 5%;
     display: flex;
     flex-direction: row;
@@ -69,9 +69,30 @@ h3{
 .webdetails, .qrcode{
 width: 50%;
 }
+.webqr{
+    color: #8566FF;
+}
+.webqr h1{
+    margin-left: 5%;
+}
+.webqr .dropdown-toggle{
+    background: #8566FF;
+    color: white;
+}
+.generate{
+    background: #8566FF;
+}
+
 
 /* Navbar */
+.offcanvas{
+    background: #8566FF;
+    color: white;
+}
 
+.offcanvas .dropdown-toggle{
+    color: #8566FF;
+}
 @media (max-width: 992px) {
     .navbar-collapse {
         position: fixed;

@@ -2,18 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url("//db.onlinewebfonts.com/c/19b8f54eb1f074fb01efb1c4f02e9623?family=AvertaStd-Regular");
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 
 h1{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 64px;
+  font-weight: bolder;
 }
 .idea-section, .qna-section{
-  background: #FFC2C2;
+  background: #EAECF8;
   
 }
 
 body{
-  color:#010A43
+  color:#8566FF;
 }
 
 .idea_column{
@@ -34,7 +37,7 @@ body{
 .ideas .icon_ideas i.fa{
    font-size: 30px;
    color: white;
-   background-color: #010A43;
+   background-color: #8566FF;;
    padding: 10%;
    border-radius: 42px;
 }
@@ -48,12 +51,12 @@ p, .accordion-body{
 .accordion-button{
   font-family: 'AvertaStd-Regular', sans-serif;
   font-size: 20px;
-  color: #010A43;
+  color: #8566FF;;
   font-weight: bold;
 }
 .nav-link{
   font-family: 'AvertaStd-Regular', sans-serif;
-  color: #010A43;
+  color: #8566FF;;
   font-weight: bold;
 }
 .nav-item{
@@ -71,7 +74,7 @@ h3{
 h2.heading{
   padding: 5% 0 5% 0;
   text-align: center;
-  color: #010A43;
+  color: #8566FF;;
   font-size: 40px;
   line-height: 50px;
   font-weight: bold;
@@ -82,17 +85,17 @@ h2.heading{
 }
 .showmore{
   text-decoration: none;
-  background-color: #010A43;
+  background-color: #8566FF;;
   border-radius: 25px;
   border-width: 0px;
   padding: 1% 2% 1% 2%;
   color: white;
-  font-family: 'AvertaStd-Regular', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   margin: 5% auto;
 }
 input.qna, textarea{
-  font-family: 'Rotunda', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 15px;
   border-width: 0px;
   border-radius: 20px;
@@ -122,15 +125,15 @@ input.qna, textarea{
 }
 .downloadbutton{
   border-width: 2px;
-  border-color: #010A43;
-  color: #010A43;
+  border-color: #8566FF;;
+  color: #8566FF;;
 }
 .login{
-  background: #010A43;
+  background: #8566FF;;
   color: white;
 }
 .downloadbutton:hover{
-  background: #010A43;
+  background: #8566FF;;
   color: white;
 }
 
@@ -153,7 +156,7 @@ input.qna, textarea{
 }
 .iconsec .icon i.fa{
   padding: 20%;
-  color: #010A43;
+  color: #8566FF;;
   font-size: 20px;
 }
 .infoqr .icon{
@@ -166,7 +169,7 @@ input.qna, textarea{
   flex-direction: row;
 }
 .icon:hover{
-  background: #010A43;
+  background: #8566FF;;
   border-radius: 25px;
 
 }
@@ -194,7 +197,7 @@ input.qna, textarea{
   border-color: gray;
 }
 .generate{
-   background: #010A43;
+   background: #8566FF;;
    color: white;
    border-radius: 20px;
    
@@ -225,7 +228,7 @@ input.qna, textarea{
 .modal-body{
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
-  color: #010A43;
+  color: #8566FF;;
 }
 .modal-title{
   text-align: center;
@@ -267,7 +270,7 @@ input.qna, textarea{
   margin: 0 0 10% 10%;
 }
 .smicons i.fa{
-  color: #010A43;
+  color: #8566FF;;
   font-size: 35px !important;
   padding: 5%;
 }

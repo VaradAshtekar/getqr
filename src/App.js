@@ -25,7 +25,7 @@ function App() {
         <Navbar />
 
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/getqr">
             < Home />
           </Route>
           <Route exact path="/register">

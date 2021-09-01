@@ -10,7 +10,7 @@ import {
 export const Qrtype = () => {
     return (
         <div className="container">
-            <div className="heading">
+            <div className="heading_qr">
                 <h2> Select your QR Type</h2>
                 <form class="d-flex">
                     <i class="fa fa-search" aria-hidden="true"></i>

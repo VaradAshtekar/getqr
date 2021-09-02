@@ -15,7 +15,7 @@ import { Navbar } from './Components/Navbar';
 import { Qrtype } from './Components/Qrtype';
 import { Dashboard } from './Components/Dashboard';
 import { WebsiteQR } from './Components/WebsiteQR';
-
+import { Dashboardqrstats } from './Components/Dashboardqrstats.js';
 
 function App() {
   return (
@@ -44,6 +44,10 @@ function App() {
           </Route>
           <Route exact path="/webqr">
             <WebsiteQR />
+          </Route>
+
+          <Route exact path="/analytics">
+            <Dashboardqrstats />
           </Route>
         </Switch>
       </Router>

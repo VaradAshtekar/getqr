@@ -19,7 +19,7 @@ export const Email = () => {
 
             </div>
             <div className="email">
-                <button className="btn generate">Generate</button>
+                <button className="btn btn-lg generate">Generate</button>
             </div>
 
         </div>

@@ -9,14 +9,14 @@ export const Vcard = () => {
                 <div className="email">
 
                     <h3>Name </h3>
-                    <input type="text" className="qna" placeholder="Enter your First name" />
-                    <input type="text" className="qna" placeholder="Enter your last name" />
+                    <input type="text" className="qna_short" placeholder="Enter your First name" />
+                    <input type="text" className="qna_short" placeholder="Enter your last name" />
                 </div>
 
                 <div className="email">
                     <h3>Contact </h3>
-                    <input type="phone" className="qna" placeholder="Enter phone number" />
-                    <input type="phone" className="qna" placeholder="Enter FAX number" />
+                    <input type="phone" className="qna_short" placeholder="Enter phone number" />
+                    <input type="phone" className="qna_short" placeholder="Enter FAX number" />
                 </div>
 
                 <div className="email">
@@ -34,8 +34,8 @@ export const Vcard = () => {
 
                     <h3>Address </h3>
                     <input type="text" className="qna" placeholder="Building number, Street" />
-                    <input type="text" className="qna" placeholder="City" />
-                    <input type="text" className="qna" placeholder="ZIP Code" />
+                    <input type="text" className="qna_short" placeholder="City" />
+                    <input type="text" className="qna_short" placeholder="ZIP Code" />
                 </div>
 
                 <div className="email">
@@ -60,7 +60,7 @@ export const Vcard = () => {
                 </div>
 
                 <div className="email">
-                    <button className="btn generate">Generate</button>
+                    <button className="btn btn-lg generate">Generate</button>
                 </div>
             </div>
 

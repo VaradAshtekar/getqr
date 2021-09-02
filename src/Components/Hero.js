@@ -103,10 +103,11 @@ export const Hero = () => {
 
                 <div className="col-5 downloadqr">
                     <img src={qrcode} />
-                    <div className="opts">
+                    <div className="dropdown_opts">
                         <div className="dropdown">
-                            <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Shape and Color
+                            <button className="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Shape and Color <i class="fa fa-chevron-down" aria-hidden="true"></i>
+
                             </button>
                             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 <li><a className="dropdown-item" href="#">Action</a></li>
@@ -117,8 +118,9 @@ export const Hero = () => {
 
 
                         <div className="dropdown">
-                            <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                Logo position
+                            <button className="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                Logo position <i class="fa fa-chevron-down" aria-hidden="true"></i>
+
                             </button>
                             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 <li><a className="dropdown-item" href="#">Action</a></li>
@@ -129,8 +131,8 @@ export const Hero = () => {
                     </div>
 
                     <div className="downloadopts">
-                        <button className="btn downloadbutton shadow-none"> Download PNG <span> <img src={download} /></span></button>
-                        <button className="btn downloadbutton shadow-none"> Download SVG <span> <img src={download} /></span></button>
+                        <button className="btn downloadbutton shadow-none"> Download PNG <span><i class="fa fa-download" aria-hidden="true"></i></span></button>
+                        <button className="btn downloadbutton shadow-none"> Download SVG <span><i class="fa fa-download" aria-hidden="true"></i></span></button>
 
                     </div>
 

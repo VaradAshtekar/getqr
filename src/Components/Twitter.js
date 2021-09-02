@@ -28,7 +28,7 @@ export const Twitter = () => {
                 </div>
                 <input class="form-control fileupload" type="file" id="formFile" />
                 <div className="email">
-                    <button className="btn generate">Generate</button>
+                    <button className="btn btn-lg generate">Generate</button>
                 </div>
 
             </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Pro.css';
+import qrcode from '../static/qrcode.png';
 
 export const Dashboardqrstats = () => {
     return (

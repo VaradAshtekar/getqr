@@ -1,12 +1,9 @@
 import React from 'react'
 import { gsap } from "gsap";
-import icon1 from '../static/heroicons-solid_pencil.png';
 import details from '../static/steps/details.svg';
 import qr from '../static/steps/downloadqrimg.svg';
 import type from '../static/steps/type.svg';
 import { Hero } from './Hero.js';
-import brush from '../static/brush.png';
-import server from '../static/server.png';
 
 const { useEffect, useState } = React;
 
@@ -63,8 +60,9 @@ export const Home = () => {
             <div className="container steps-section">
                 <h2 className="heading">How to create a QR ?</h2>
                 <div className="container">
-                    <div className="left_sec row">
 
+                    <div className="left_sec row">
+                        <div className="col-1"><div className="step_line"><p>1</p></div></div>
                         <div className="col">
                             <h3>Select which type</h3>
                             <p>You may choose from URL, vCard, Plain Text, Email, SMS, Twitter, WiFi, and Bitcoin. However, these free QR Codes are not editable and trackable.</p>
@@ -74,6 +72,7 @@ export const Home = () => {
                         </div>
                     </div>
                     <div className="right_sec row">
+                        <div className="col-1"><div className="step_line"><p>2</p></div></div>
 
                         <div className="col">
                             <img src={details} />
@@ -85,6 +84,7 @@ export const Home = () => {
                     </div>
 
                     <div className="left_sec row">
+                        <div className="col-1"><div className="step_line"><p>3</p></div></div>
 
                         <div className="col">
                             <h3>Download the QR Code</h3>
@@ -96,6 +96,7 @@ export const Home = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
 
 

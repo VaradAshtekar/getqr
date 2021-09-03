@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../static/getqrlogo.png';
-import googlelogo from '../static/googlelogo.jpg';
 import {
     BrowserRouter as Router,
     Switch,

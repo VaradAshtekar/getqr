@@ -7,15 +7,6 @@ import {
 } from "react-router-dom";
 
 import qrcode from '../static/qrcode.png';
-import phone from '../static/phone.svg';
-import wifi from '../static/wifi.svg';
-import twitter from '../static/twitter.svg';
-import filetext from '../static/file-text.svg';
-import email from '../static/email.svg';
-import bitcoin from '../static/bitcoin.svg';
-import address from '../static/address-card.svg';
-import urlicon from '../static/Vector.svg';
-import download from '../static/download.svg';
 
 import { Email } from './Email';
 import { Wifi } from './Wifi';

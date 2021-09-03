@@ -88,9 +88,9 @@ export const Dashboard = () => {
                     <div className="webdetails">
                         <p>Website</p>
                         <Link to="/analytics">
-                            <h2>https://www.getqr.com</h2>
+                            <h2> https://www.getqr.com</h2>
                         </Link>
-                        <p>No Folder</p>
+                        <p> No Folder</p>
                         <p>May 27, 2021</p>
                     </div>
                     <div className="qrcode">

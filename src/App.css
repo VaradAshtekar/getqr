@@ -274,7 +274,7 @@ input.qna, textarea,input.qna_short{
   margin-left: 2px;
   color:#8566FF
 }
-.accordion{
+.faq-section .accordion{
   width: 50% !important;
 }
 .modal-body{

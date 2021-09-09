@@ -32,8 +32,12 @@ export const Dashboard = () => {
 
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasExampleLabel"> <i class="fa fa-user" aria-hidden="true"></i>   User Name </h5>
-                        <p class="offcanvas-title" id="offcanvasExampleLabel"> Email@Id.com </p>
+
+                        <div className="row">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel"> <i class="fa fa-user" aria-hidden="true"></i>   User Name </h5>
+                            <p class="offcanvas-title" id="offcanvasExampleLabel"> Email@Id.com </p>
+                        </div>
+
 
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>

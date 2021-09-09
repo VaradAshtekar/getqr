@@ -105,17 +105,19 @@ export const Qrtype = () => {
                 </div>
 
                 <div className="qrtypes">
-                    <div className="btn type">
-                        <div className="typeicon">
-                            <i class="fa fa-mobile" aria-hidden="true"></i>
 
-                        </div>
-                        <div className="text">
-                            <h3>Social Media</h3>
-                            <p>Link to any page on the web</p>
-                        </div>
-                    </div>
+                    <Link to="/smqr">
+                        <div className="btn type">
+                            <div className="typeicon">
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
 
+                            </div>
+                            <div className="text">
+                                <h3>Social Media</h3>
+                                <p>Link to any page on the web</p>
+                            </div>
+                        </div>
+                    </Link>
                     <div className="btn type">
                         <div className="typeicon">
                             <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
